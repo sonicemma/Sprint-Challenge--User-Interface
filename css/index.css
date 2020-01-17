@@ -313,8 +313,10 @@ footer nav a {
 .aboutfooter {
     display: flex;
     align-items: center;
-    margin-left: 550px;
-    width: 790px;
+    /*margin-left: 550px;
+    width: 790px;*/
+    margin-left: 30%;
+    width: 40%;
 }
 
 #aboutabout:hover{
