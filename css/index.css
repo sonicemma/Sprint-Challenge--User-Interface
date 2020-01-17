@@ -209,13 +209,98 @@ footer nav a {
 
 /* ABOUT.HTML STARTS HERE */
 
-#headerindex {
-    border: solid red;
+.containerabout{
+    width: 800px;
+    margin: 0 auto;
+}
 
+.containerabout #headernavabout {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1%;
+    margin: 2%;
+    justify-content: center;
+}
+
+.containerabout #headernavabout a{
+    display: flex;
+    flex-basis: 90%;
+    padding-top: 3%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.aboutborder {
+    border: dotted black .5px;
+    margin: 1%;
+}
+
+#aboutimg {
+    margin: 3%;
+}
+
+#headerabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
 
 .about-container {
-    border: solid red;
     width: 800px;
     margin: 0 auto;
+}
+
+.aboutcontent {
+    margin-left: 5%;
+}
+
+.maincontentabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#aboutstrategy {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#aboutwork {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#aboutcolab {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.learnmore {
+	display: flex;
+	width: 30%;
+	padding: 2%;
+	margin: 2%;
+	background: white;
+	border: solid black 2px;
+	justify-content: center;
+	border-radius: 5px;
+	font-size: 80%;
+
+}
+
+#worktogether {
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+}
+
+footer {
+    width: 800px;
+    margin-left: 552px;
 }
