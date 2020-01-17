@@ -275,17 +275,26 @@ footer nav a {
     width: 45%;
 }
 
+#aboutplaceswork {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: dotted black 2px;
+}
+
 #aboutcolab {
     display: flex;
     flex-direction: column;
     width: 45%;
+    font-size: 90%;
+    border-bottom: dotted black 2px;
 }
 
 .learnmore {
 	display: flex;
 	width: 30%;
 	padding: 2%;
-	margin: 2%;
+	margin: 3%;
 	background: white;
 	border: solid black 2px;
 	justify-content: center;
