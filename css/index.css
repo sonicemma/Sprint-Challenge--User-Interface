@@ -267,12 +267,14 @@ footer nav a {
     display: flex;
     flex-direction: column;
     width: 45%;
+    border-bottom: dotted black 2px;
 }
 
 #aboutwork {
     display: flex;
     flex-direction: column;
     width: 45%;
+    border-bottom: dotted black 2px;
 }
 
 #aboutplaceswork {
@@ -286,7 +288,6 @@ footer nav a {
     display: flex;
     flex-direction: column;
     width: 45%;
-    font-size: 90%;
     border-bottom: dotted black 2px;
 }
 
@@ -309,7 +310,9 @@ footer nav a {
     flex-direction: column;
 }
 
-footer {
-    width: 800px;
-    margin-left: 552px;
+.aboutfooter {
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+    width: 790px;
 }
