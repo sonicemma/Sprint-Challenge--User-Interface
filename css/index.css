@@ -316,3 +316,17 @@ footer nav a {
     margin-left: 550px;
     width: 790px;
 }
+
+#aboutabout:hover{
+    color: black;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: purple;
+    }
+  }
