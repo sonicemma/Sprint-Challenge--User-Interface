@@ -66,11 +66,73 @@ p {
     line-height: 1.4;
 }
 
+/* code starts here */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+img {
+    margin: auto;
+}
+.container #headernav {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1%;
+}
+
+.container #headernav a{
+    display: flex;
+    flex-basis: 90%;
+    justify-content: center;
+    align-self: center;
+    padding-top: 3%;
+    text-decoration: none;
+    color: black;
+}
+
+.headerimg {
+    margin: 3%;
+}
+
+#headerindex {
+    display: flex;
+    flex-direction: column;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background:  dodgerblue;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +206,129 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT.HTML STARTS HERE */
+
+.containerabout{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.containerabout #headernavabout {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1%;
+    margin: 2%;
+    justify-content: center;
+}
+
+.containerabout #headernavabout a{
+    display: flex;
+    flex-basis: 90%;
+    padding-top: 3%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.aboutborder {
+    border: dotted black .5px;
+    margin: 1%;
+}
+
+#aboutimg {
+    margin: 3%;
+}
+
+#headerabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.aboutcontent {
+    margin-left: 5%;
+}
+
+.maincontentabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#aboutstrategy {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: dotted black 2px;
+}
+
+#aboutwork {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: dotted black 2px;
+}
+
+#aboutplaceswork {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: dotted black 2px;
+}
+
+#aboutcolab {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: dotted black 2px;
+}
+
+.learnmore {
+	display: flex;
+	width: 30%;
+	padding: 2%;
+	margin: 3%;
+	background: white;
+	border: solid black 2px;
+	justify-content: center;
+	border-radius: 5px;
+	font-size: 80%;
+
+}
+
+#worktogether {
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+}
+
+.aboutfooter {
+    display: flex;
+    align-items: center;
+    /*margin-left: 550px;
+    width: 790px;*/
+    margin-left: 30%;
+    width: 40%;
+}
+
+#aboutabout:hover{
+    color: black;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: purple;
+    }
+  }
